@@ -5,7 +5,7 @@ const y = Number(prompt("Pick another Number"))
 function min(x, y) {
     return Math.min(x, y)
 }
-alert(min())
+alert(min(x, y))
 
 
 
