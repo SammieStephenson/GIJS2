@@ -1,6 +1,6 @@
 // VERY EASY: Write a function named min that takes two arguments and returns their minimum.
 
-const x = Number(prompt("Pick a Numbeer"))
+const x = Number(prompt("Pick a Number"))
 const y = Number(prompt("Pick another Number"))
 function min(x, y) {
     return Math.min(x, y)
@@ -13,11 +13,11 @@ alert(min(x, y))
 // validate, please log a greeting with the first name, last name and age of the 2nd student. The output
 // should look like "Hello, my name is John Doe and I'm 19 years old."
 
-// let student1 = ["Sammie", "Stephenson", 25]
-// let student2 = ["Jordan", "Douglas", 22]
-// let student3 = ["Chance", "Lewis", 35]
+let student1 = ["Sammie", "Stephenson", 25]
+let student2 = ["Jordan", "Douglas", 22]
+let student3 = ["Chance", "Lewis", 35]
 
-// console.log(`Hello, my name is ${student3[0]} ${student3[1]} and I am ${student3[2]} years old.`);
+console.log(`Hello, my name is ${student3[0]} ${student3[1]} and I am ${student3[2]} years old.`);
 
 // MEDIUM: Create a program that accepts a number (1-12) as input and logs to the console that number
 // and its corresponding month. For example: if the user enters the number 3, then it should return the
@@ -77,7 +77,7 @@ function BMI(m, h) {
 
 const jerryBMI = Number(BMI(jMass, jHeight))
 const tomBMI = BMI(tMass, tHeight)
-console.log(jBMI)
+console.log(jerryBMI)
 
 if (jerryBMI > tomBMI) {
     console.log(true)
